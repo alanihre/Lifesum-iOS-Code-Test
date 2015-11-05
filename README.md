@@ -1,3 +1,5 @@
+# Lifesum iOS Code Test
+### By Alan Ihre
 This is a repository with the code for a programming test for Lifesum for iOS.
 
 The app asynchronously imports three JSON files and displays the data. The user can also search among the data.
