@@ -1,0 +1,120 @@
+
+/* Class = "UILabel"; text = "Cholesterol"; ObjectID = "0X8-VL-PGy"; */
+"0X8-VL-PGy.text" = "Kolesterol";
+
+/* Class = "UILabel"; text = "300 kcal"; ObjectID = "0af-YR-czq"; */
+"0af-YR-czq.text" = "300 kcal";
+
+/* Class = "UILabel"; text = "Protein"; ObjectID = "1eY-jU-fcx"; */
+"1eY-jU-fcx.text" = "Protein";
+
+/* Class = "UILabel"; text = "Other"; ObjectID = "25m-S7-SX8"; */
+"25m-S7-SX8.text" = "Övrigt";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "4NW-Gd-BsI"; */
+"4NW-Gd-BsI.text" = "2.3 g";
+
+/* Class = "UILabel"; text = "Sugar"; ObjectID = "4yz-NE-56v"; */
+"4yz-NE-56v.text" = "Socker";
+
+/* Class = "UILabel"; text = "FAT"; ObjectID = "5l6-qb-I2Q"; */
+"5l6-qb-I2Q.text" = "FETT";
+
+/* Class = "UITabBarItem"; title = "Food"; ObjectID = "5zQ-cf-8BU"; */
+"5zQ-cf-8BU.title" = "Mat";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "7sK-OC-btt"; */
+"7sK-OC-btt.text" = "2.3 g";
+
+/* Class = "UILabel"; text = "Sodium"; ObjectID = "8he-vX-8fF"; */
+"8he-vX-8fF.text" = "Natrium";
+
+/* Class = "UILabel"; text = "Unsaturated fat"; ObjectID = "DdW-c9-M9B"; */
+"DdW-c9-M9B.text" = "Omättat fett";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "Eyh-7A-biR"; */
+"Eyh-7A-biR.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "300 kcal"; ObjectID = "Gdm-Qs-rfh"; */
+"Gdm-Qs-rfh.text" = "300 kcal";
+
+/* Class = "UILabel"; text = "Saturated fat"; ObjectID = "JKc-OY-zqS"; */
+"JKc-OY-zqS.text" = "Mättat fett";
+
+/* Class = "UINavigationItem"; title = "Exercises"; ObjectID = "Lkh-B1-c16"; */
+"Lkh-B1-c16.title" = "Träning";
+
+/* Class = "UILabel"; text = "Fat"; ObjectID = "Ls4-d9-HkH"; */
+"Ls4-d9-HkH.text" = "Fett";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "RjG-6a-Dbo"; */
+"RjG-6a-Dbo.text" = "2.3 g";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "S1L-Ft-6tE"; */
+"S1L-Ft-6tE.text" = "Title";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "WLu-RJ-bFO"; */
+"WLu-RJ-bFO.text" = "Title";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "XeD-Vr-jvN"; */
+"XeD-Vr-jvN.text" = "2.3 g";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "Y4Y-2C-v40"; */
+"Y4Y-2C-v40.text" = "2.3 g";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "bcK-vg-crZ"; */
+"bcK-vg-crZ.text" = "2.3 g";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "c0W-Sa-v2l"; */
+"c0W-Sa-v2l.text" = "Title";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "cPG-6p-Zyo"; */
+"cPG-6p-Zyo.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "ddf-8k-HDO"; */
+"ddf-8k-HDO.text" = "Title";
+
+/* Class = "UITabBarItem"; title = "Exercises"; ObjectID = "enS-je-97d"; */
+"enS-je-97d.title" = "Träning";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "fRm-HM-O4j"; */
+"fRm-HM-O4j.text" = "2.3 g";
+
+/* Class = "UILabel"; text = "Fibers"; ObjectID = "g2w-zC-nn1"; */
+"g2w-zC-nn1.text" = "Fibrer";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "hcV-2e-0ij"; */
+"hcV-2e-0ij.text" = "Title";
+
+/* Class = "UILabel"; text = "Potassium"; ObjectID = "jgT-FS-IQE"; */
+"jgT-FS-IQE.text" = "Kalium";
+
+/* Class = "UILabel"; text = "PROTEIN"; ObjectID = "k2R-Py-gKH"; */
+"k2R-Py-gKH.text" = "PROTEIN";
+
+/* Class = "UINavigationItem"; title = "Exercises"; ObjectID = "lJd-t0-tL6"; */
+"lJd-t0-tL6.title" = "Träning";
+
+/* Class = "UIViewController"; title = "Exercises"; ObjectID = "ncA-Ga-txd"; */
+"ncA-Ga-txd.title" = "Träning";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "nm6-1X-TIa"; */
+"nm6-1X-TIa.text" = "2.3 g";
+
+/* Class = "UILabel"; text = "CARBOHYDRATES"; ObjectID = "q7G-n7-XYt"; */
+"q7G-n7-XYt.text" = "KOLHYDRATER";
+
+/* Class = "UILabel"; text = "Carbohydrates"; ObjectID = "shh-0d-I8P"; */
+"shh-0d-I8P.text" = "Kolhydrater";
+
+/* Class = "UIViewController"; title = "Exercises"; ObjectID = "tFk-e9-eek"; */
+"tFk-e9-eek.title" = "Träning";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "uSE-aE-Eax"; */
+"uSE-aE-Eax.text" = "2.3 g";
+
+/* Class = "UILabel"; text = "2.3 g"; ObjectID = "vmQ-qV-aOa"; */
+"vmQ-qV-aOa.text" = "2.3 g";
+
+/* Class = "UINavigationItem"; title = "Food"; ObjectID = "yRP-9s-6m6"; */
+"yRP-9s-6m6.title" = "Mat";

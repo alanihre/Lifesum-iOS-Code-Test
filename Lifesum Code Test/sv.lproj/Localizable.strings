@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Lifesum Code Test
+
+  Created by Alan Ihre on 2015-11-04.
+  Copyright © 2015 Ihre IT. All rights reserved.
+*/
+
+"importing_data_hud_text" = "Importerar";

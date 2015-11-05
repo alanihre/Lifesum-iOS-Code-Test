@@ -1,0 +1,19 @@
+PODS:
+  - BLKFlexibleHeightBar (1.0.2)
+  - EDStarRating (1.1)
+  - SVProgressHUD (1.1.3)
+  - UICountingLabel (1.2.0)
+
+DEPENDENCIES:
+  - BLKFlexibleHeightBar
+  - EDStarRating
+  - SVProgressHUD
+  - UICountingLabel
+
+SPEC CHECKSUMS:
+  BLKFlexibleHeightBar: b27572a69633d8e33f1f2bbc486b04d8e86f742d
+  EDStarRating: a41a6440a945020745d0e9ff8ada7d1afa952114
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+
+COCOAPODS: 0.38.2

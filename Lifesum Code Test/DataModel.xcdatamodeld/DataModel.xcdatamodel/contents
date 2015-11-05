@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15B42" minimumToolsVersion="Xcode 7.0">
+    <entity name="Exercise" syncable="YES">
+        <attribute name="addedByUser" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="calories" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="custom" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="downloaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hidden" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name_da" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_de" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_es" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_fr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_it" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_nl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_pl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_pt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_ru" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_sv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="photoVersion" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="removed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Food" syncable="YES">
+        <attribute name="addedByUser" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="brand" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="calories" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="carbohydrates" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="cholesterol" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="custom" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="defaultSize" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="downloaded" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="fat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="fiber" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="gramsPerServing" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="hidden" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="mlInGram" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="oid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="pcsInGram" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pcsText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="potassium" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="protein" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="removed" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="saturatedFat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="servingCategory" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="showMeasurement" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="showOnlySameType" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sodium" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="sourceId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sugar" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="typeOfMeasurement" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="unsaturatedFat" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="FoodCategory" inverseName="food" inverseEntity="FoodCategory" syncable="YES"/>
+    </entity>
+    <entity name="FoodCategory" syncable="YES">
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="headCategoryId" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="lastUpdated" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="name_da" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_de" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_es" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_fi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_fr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_it" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_nl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_no" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_pl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_pt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_ru" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name_sv" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="oid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="photoVersion" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="servingsCategory" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="food" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Food" inverseName="category" inverseEntity="Food" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Food" positionX="-63" positionY="-18" width="128" height="525"/>
+        <element name="FoodCategory" positionX="-45" positionY="153" width="128" height="330"/>
+        <element name="Exercise" positionX="-27" positionY="162" width="128" height="360"/>
+    </elements>
+</model>
