@@ -74,21 +74,22 @@
     
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^(void){
         
-        NSError *importError;
+        __block NSError *importError;
         DataImporter *dataImporter = [DataImporter new];
         [dataImporter import:&importError];
-        if(importError){
-            //TODO: Show error message to user
-            NSLog(@"%@", importError);
-        }
         
         dispatch_async(dispatch_get_main_queue(), ^(void){
             
-            NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-            [userDefaults setObject:@(YES) forKey:@"DataImported"];
-            [userDefaults synchronize];
-            
-            [SVProgressHUD dismiss];
+            if(importError){
+                [SVProgressHUD showErrorWithStatus:@"Error when importing data"];
+                NSLog(@"Import error: %@", importError);
+            } else {
+                NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+                [userDefaults setObject:@(YES) forKey:@"DataImported"];
+                [userDefaults synchronize];
+                
+                [SVProgressHUD dismiss];
+            }
             
         });
         
