@@ -36,16 +36,16 @@
 		0D32049E1BEA35BE00FEEC76 /* ExercisesSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D32049D1BEA35BE00FEEC76 /* ExercisesSearchResultsViewController.m */; };
 		0D3204A91BEA427400FEEC76 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0D3204AB1BEA427400FEEC76 /* Localizable.strings */; };
 		0D3204AF1BEA5D2300FEEC76 /* FoodSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3204AE1BEA5D2300FEEC76 /* FoodSearchResultsViewController.m */; };
+		0D90469A1BEBF21B0033273F /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9046991BEBF21B0033273F /* Food.m */; };
+		0D90469D1BEBF2220033273F /* FoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D90469C1BEBF2220033273F /* FoodCategory.m */; };
+		0D9046A01BEBF2280033273F /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D90469F1BEBF2280033273F /* Exercise.m */; };
 		0DB5E6B71BE905C400C0693B /* FoodCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5E6B61BE905C400C0693B /* FoodCategoryViewController.m */; };
 		0DB5E6BA1BE90DDE00C0693B /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5E6B91BE90DDE00C0693B /* FoodViewController.m */; };
 		0DB5E6BD1BE9104400C0693B /* StoryboardConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5E6BC1BE9104400C0693B /* StoryboardConstants.m */; };
 		0DD77D301BE7AC58006A10A8 /* DataStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD77D2F1BE7AC58006A10A8 /* DataStoreManager.m */; };
 		0DE8DD971BE7B1AC00FE080C /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DD951BE7B1AC00FE080C /* DataModel.xcdatamodeld */; };
-		0DE8DD9D1BE7DBD200FE080C /* Food.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DD9C1BE7DBD200FE080C /* Food.m */; };
 		0DE8DDA01BE7E3E500FE080C /* DataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DD9F1BE7E3E500FE080C /* DataImporter.m */; };
-		0DE8DDA41BE8013B00FE080C /* FoodCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DDA31BE8013B00FE080C /* FoodCategory.m */; };
 		0DE8DDAD1BE805A300FE080C /* FoodCategoryDataMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DDAC1BE805A300FE080C /* FoodCategoryDataMapper.m */; };
-		0DE8DDB11BE8090C00FE080C /* Exercise.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DDB01BE8090C00FE080C /* Exercise.m */; };
 		0DE8DDB91BE80C5E00FE080C /* ExerciseDataMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DDB81BE80C5E00FE080C /* ExerciseDataMapper.m */; };
 		0DF151151BE678130061FA2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF151141BE678130061FA2D /* main.m */; };
 		0DF151181BE678130061FA2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF151171BE678130061FA2D /* AppDelegate.m */; };
@@ -145,6 +145,12 @@
 		0D3204AC1BEA427700FEEC76 /* sv */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = sv; path = sv.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0D3204AD1BEA5D2300FEEC76 /* FoodSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodSearchResultsViewController.h; sourceTree = "<group>"; };
 		0D3204AE1BEA5D2300FEEC76 /* FoodSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodSearchResultsViewController.m; sourceTree = "<group>"; };
+		0D9046981BEBF21B0033273F /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Food.h; path = "Lifesum Code Test/Food.h"; sourceTree = "<group>"; };
+		0D9046991BEBF21B0033273F /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Food.m; path = "Lifesum Code Test/Food.m"; sourceTree = "<group>"; };
+		0D90469B1BEBF2220033273F /* FoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FoodCategory.h; path = "Lifesum Code Test/FoodCategory.h"; sourceTree = "<group>"; };
+		0D90469C1BEBF2220033273F /* FoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FoodCategory.m; path = "Lifesum Code Test/FoodCategory.m"; sourceTree = "<group>"; };
+		0D90469E1BEBF2280033273F /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exercise.h; path = "Lifesum Code Test/Exercise.h"; sourceTree = "<group>"; };
+		0D90469F1BEBF2280033273F /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Exercise.m; path = "Lifesum Code Test/Exercise.m"; sourceTree = "<group>"; };
 		0DB5E6B51BE905C400C0693B /* FoodCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategoryViewController.h; sourceTree = "<group>"; };
 		0DB5E6B61BE905C400C0693B /* FoodCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategoryViewController.m; sourceTree = "<group>"; };
 		0DB5E6B81BE90DDE00C0693B /* FoodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodViewController.h; sourceTree = "<group>"; };
@@ -154,16 +160,10 @@
 		0DD77D2E1BE7AC58006A10A8 /* DataStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreManager.h; sourceTree = "<group>"; };
 		0DD77D2F1BE7AC58006A10A8 /* DataStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStoreManager.m; sourceTree = "<group>"; };
 		0DE8DD961BE7B1AC00FE080C /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		0DE8DD9B1BE7DBD200FE080C /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
-		0DE8DD9C1BE7DBD200FE080C /* Food.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Food.m; sourceTree = "<group>"; };
 		0DE8DD9E1BE7E3E500FE080C /* DataImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataImporter.h; sourceTree = "<group>"; };
 		0DE8DD9F1BE7E3E500FE080C /* DataImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataImporter.m; sourceTree = "<group>"; };
-		0DE8DDA21BE8013B00FE080C /* FoodCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategory.h; sourceTree = "<group>"; };
-		0DE8DDA31BE8013B00FE080C /* FoodCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategory.m; sourceTree = "<group>"; };
 		0DE8DDAB1BE805A300FE080C /* FoodCategoryDataMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategoryDataMapper.h; sourceTree = "<group>"; };
 		0DE8DDAC1BE805A300FE080C /* FoodCategoryDataMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodCategoryDataMapper.m; sourceTree = "<group>"; };
-		0DE8DDAF1BE8090C00FE080C /* Exercise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exercise.h; sourceTree = "<group>"; };
-		0DE8DDB01BE8090C00FE080C /* Exercise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Exercise.m; sourceTree = "<group>"; };
 		0DE8DDB71BE80C5E00FE080C /* ExerciseDataMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExerciseDataMapper.h; sourceTree = "<group>"; };
 		0DE8DDB81BE80C5E00FE080C /* ExerciseDataMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExerciseDataMapper.m; sourceTree = "<group>"; };
 		0DF151101BE678130061FA2D /* Lifesum Code Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lifesum Code Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -549,8 +549,8 @@
 		0DE8DDA51BE8013E00FE080C /* Food Category */ = {
 			isa = PBXGroup;
 			children = (
-				0DE8DDA21BE8013B00FE080C /* FoodCategory.h */,
-				0DE8DDA31BE8013B00FE080C /* FoodCategory.m */,
+				0D90469B1BEBF2220033273F /* FoodCategory.h */,
+				0D90469C1BEBF2220033273F /* FoodCategory.m */,
 			);
 			name = "Food Category";
 			sourceTree = "<group>";
@@ -558,8 +558,8 @@
 		0DE8DDA61BE8014400FE080C /* Food */ = {
 			isa = PBXGroup;
 			children = (
-				0DE8DD9B1BE7DBD200FE080C /* Food.h */,
-				0DE8DD9C1BE7DBD200FE080C /* Food.m */,
+				0D9046981BEBF21B0033273F /* Food.h */,
+				0D9046991BEBF21B0033273F /* Food.m */,
 			);
 			name = Food;
 			sourceTree = "<group>";
@@ -576,8 +576,8 @@
 		0DE8DDB21BE8090F00FE080C /* Exercise */ = {
 			isa = PBXGroup;
 			children = (
-				0DE8DDAF1BE8090C00FE080C /* Exercise.h */,
-				0DE8DDB01BE8090C00FE080C /* Exercise.m */,
+				0D90469E1BEBF2280033273F /* Exercise.h */,
+				0D90469F1BEBF2280033273F /* Exercise.m */,
 			);
 			name = Exercise;
 			sourceTree = "<group>";
@@ -878,6 +878,7 @@
 				0D2C11CC1BEBDCDE002E6FEB /* PNBarChart.m in Sources */,
 				0DE8DDA01BE7E3E500FE080C /* DataImporter.m in Sources */,
 				0D2C11D61BEBDCDE002E6FEB /* PNRadarChart.m in Sources */,
+				0D9046A01BEBF2280033273F /* Exercise.m in Sources */,
 				0D32049A1BEA265D00FEEC76 /* ExerciseDetailsViewController.m in Sources */,
 				0D2C118D1BEB7BDE002E6FEB /* FoodTableViewCell.m in Sources */,
 				0DB5E6BA1BE90DDE00C0693B /* FoodViewController.m in Sources */,
@@ -885,6 +886,7 @@
 				0D2C11CB1BEBDCDE002E6FEB /* PNBar.m in Sources */,
 				0D2C11D81BEBDCDE002E6FEB /* PNScatterChart.m in Sources */,
 				0D3204AF1BEA5D2300FEEC76 /* FoodSearchResultsViewController.m in Sources */,
+				0D90469A1BEBF21B0033273F /* Food.m in Sources */,
 				0DF1514E1BE678390061FA2D /* DataModel.xcdatamodeld in Sources */,
 				0D2C11D91BEBDCDE002E6FEB /* PNScatterChartData.m in Sources */,
 				0D2C11D71BEBDCDE002E6FEB /* PNRadarChartDataItem.m in Sources */,
@@ -894,19 +896,17 @@
 				0D2C11D41BEBDCDE002E6FEB /* PNPieChart.m in Sources */,
 				0D2C11CE1BEBDCDE002E6FEB /* PNCircleChart.m in Sources */,
 				0DE8DDB91BE80C5E00FE080C /* ExerciseDataMapper.m in Sources */,
-				0DE8DDA41BE8013B00FE080C /* FoodCategory.m in Sources */,
 				0D2C11CF1BEBDCDE002E6FEB /* PNColor.m in Sources */,
 				0D2C11911BEB7D19002E6FEB /* FoodCategoryTableViewCell.m in Sources */,
 				0D2C11CD1BEBDCDE002E6FEB /* PNChartLabel.m in Sources */,
 				0D32049E1BEA35BE00FEEC76 /* ExercisesSearchResultsViewController.m in Sources */,
 				0D2C11951BEB99CF002E6FEB /* UIViewController+GoBack.m in Sources */,
-				0DE8DD9D1BE7DBD200FE080C /* Food.m in Sources */,
 				0D2C11D31BEBDCDE002E6FEB /* PNLineChartDataItem.m in Sources */,
 				0D2C11D01BEBDCDE002E6FEB /* PNGenericChart.m in Sources */,
-				0DE8DDB11BE8090C00FE080C /* Exercise.m in Sources */,
 				0DD77D301BE7AC58006A10A8 /* DataStoreManager.m in Sources */,
 				0D2C11D51BEBDCDE002E6FEB /* PNPieChartDataItem.m in Sources */,
 				0D2C11881BEB70B3002E6FEB /* SquareCashStyleBar.m in Sources */,
+				0D90469D1BEBF2220033273F /* FoodCategory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
