@@ -42,8 +42,8 @@
 		0DB5E6B71BE905C400C0693B /* FoodCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5E6B61BE905C400C0693B /* FoodCategoryViewController.m */; };
 		0DB5E6BA1BE90DDE00C0693B /* FoodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5E6B91BE90DDE00C0693B /* FoodViewController.m */; };
 		0DB5E6BD1BE9104400C0693B /* StoryboardConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DB5E6BC1BE9104400C0693B /* StoryboardConstants.m */; };
+		0DCC648F1BF0CD6800F42156 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC648D1BF0CD6800F42156 /* DataModel.xcdatamodeld */; };
 		0DD77D301BE7AC58006A10A8 /* DataStoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD77D2F1BE7AC58006A10A8 /* DataStoreManager.m */; };
-		0DE8DD971BE7B1AC00FE080C /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DD951BE7B1AC00FE080C /* DataModel.xcdatamodeld */; };
 		0DE8DDA01BE7E3E500FE080C /* DataImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DD9F1BE7E3E500FE080C /* DataImporter.m */; };
 		0DE8DDAD1BE805A300FE080C /* FoodCategoryDataMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DDAC1BE805A300FE080C /* FoodCategoryDataMapper.m */; };
 		0DE8DDB91BE80C5E00FE080C /* ExerciseDataMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DE8DDB81BE80C5E00FE080C /* ExerciseDataMapper.m */; };
@@ -55,7 +55,6 @@
 		0DF1512E1BE678130061FA2D /* Lifesum_Code_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1512D1BE678130061FA2D /* Lifesum_Code_TestTests.m */; };
 		0DF151391BE678130061FA2D /* Lifesum_Code_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF151381BE678130061FA2D /* Lifesum_Code_TestUITests.m */; };
 		0DF151481BE678220061FA2D /* JSONImporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF151471BE678220061FA2D /* JSONImporter.m */; };
-		0DF1514E1BE678390061FA2D /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0DF1514C1BE678390061FA2D /* DataModel.xcdatamodeld */; };
 		0DF151521BE679BA0061FA2D /* categoriesStatic.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DF1514F1BE679BA0061FA2D /* categoriesStatic.json */; };
 		0DF151531BE679BA0061FA2D /* exercisesStatic.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DF151501BE679BA0061FA2D /* exercisesStatic.json */; };
 		0DF151541BE679BA0061FA2D /* foodStatic.json in Resources */ = {isa = PBXBuildFile; fileRef = 0DF151511BE679BA0061FA2D /* foodStatic.json */; };
@@ -157,9 +156,9 @@
 		0DB5E6B91BE90DDE00C0693B /* FoodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodViewController.m; sourceTree = "<group>"; };
 		0DB5E6BB1BE9104400C0693B /* StoryboardConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryboardConstants.h; sourceTree = "<group>"; };
 		0DB5E6BC1BE9104400C0693B /* StoryboardConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryboardConstants.m; sourceTree = "<group>"; };
+		0DCC648E1BF0CD6800F42156 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		0DD77D2E1BE7AC58006A10A8 /* DataStoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataStoreManager.h; sourceTree = "<group>"; };
 		0DD77D2F1BE7AC58006A10A8 /* DataStoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataStoreManager.m; sourceTree = "<group>"; };
-		0DE8DD961BE7B1AC00FE080C /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
 		0DE8DD9E1BE7E3E500FE080C /* DataImporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataImporter.h; sourceTree = "<group>"; };
 		0DE8DD9F1BE7E3E500FE080C /* DataImporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataImporter.m; sourceTree = "<group>"; };
 		0DE8DDAB1BE805A300FE080C /* FoodCategoryDataMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodCategoryDataMapper.h; sourceTree = "<group>"; };
@@ -625,8 +624,8 @@
 				0D2C11961BEB99E4002E6FEB /* Categories */,
 				0DF1511C1BE678130061FA2D /* Main.storyboard */,
 				0DF151211BE678130061FA2D /* LaunchScreen.storyboard */,
-				0DE8DD951BE7B1AC00FE080C /* DataModel.xcdatamodeld */,
 				0D3204AB1BEA427400FEEC76 /* Localizable.strings */,
+				0DCC648D1BF0CD6800F42156 /* DataModel.xcdatamodeld */,
 				0D3204921BEA24DF00FEEC76 /* JSON Data Files */,
 				0DF151131BE678130061FA2D /* Supporting Files */,
 			);
@@ -865,7 +864,6 @@
 				0D2C11D21BEBDCDE002E6FEB /* PNLineChartData.m in Sources */,
 				0D2C11A21BEBB1C2002E6FEB /* DietDataService.m in Sources */,
 				0D2C119A1BEB9BAF002E6FEB /* ExerciseTableViewCell.m in Sources */,
-				0DE8DD971BE7B1AC00FE080C /* DataModel.xcdatamodeld in Sources */,
 				0D2C119E1BEB9F07002E6FEB /* CustomNavigationController.m in Sources */,
 				0DF151481BE678220061FA2D /* JSONImporter.m in Sources */,
 				0D3204951BEA250B00FEEC76 /* ExercisesViewController.m in Sources */,
@@ -887,7 +885,6 @@
 				0D2C11D81BEBDCDE002E6FEB /* PNScatterChart.m in Sources */,
 				0D3204AF1BEA5D2300FEEC76 /* FoodSearchResultsViewController.m in Sources */,
 				0D90469A1BEBF21B0033273F /* Food.m in Sources */,
-				0DF1514E1BE678390061FA2D /* DataModel.xcdatamodeld in Sources */,
 				0D2C11D91BEBDCDE002E6FEB /* PNScatterChartData.m in Sources */,
 				0D2C11D71BEBDCDE002E6FEB /* PNRadarChartDataItem.m in Sources */,
 				0DF151181BE678130061FA2D /* AppDelegate.m in Sources */,
@@ -897,6 +894,7 @@
 				0D2C11CE1BEBDCDE002E6FEB /* PNCircleChart.m in Sources */,
 				0DE8DDB91BE80C5E00FE080C /* ExerciseDataMapper.m in Sources */,
 				0D2C11CF1BEBDCDE002E6FEB /* PNColor.m in Sources */,
+				0DCC648F1BF0CD6800F42156 /* DataModel.xcdatamodeld in Sources */,
 				0D2C11911BEB7D19002E6FEB /* FoodCategoryTableViewCell.m in Sources */,
 				0D2C11CD1BEBDCDE002E6FEB /* PNChartLabel.m in Sources */,
 				0D32049E1BEA35BE00FEEC76 /* ExercisesSearchResultsViewController.m in Sources */,
@@ -1166,23 +1164,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		0DE8DD951BE7B1AC00FE080C /* DataModel.xcdatamodeld */ = {
+		0DCC648D1BF0CD6800F42156 /* DataModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				0DE8DD961BE7B1AC00FE080C /* DataModel.xcdatamodel */,
+				0DCC648E1BF0CD6800F42156 /* DataModel.xcdatamodel */,
 			);
-			currentVersion = 0DE8DD961BE7B1AC00FE080C /* DataModel.xcdatamodel */;
+			currentVersion = 0DCC648E1BF0CD6800F42156 /* DataModel.xcdatamodel */;
 			path = DataModel.xcdatamodeld;
 			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		0DF1514C1BE678390061FA2D /* DataModel.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-			);
-			name = DataModel.xcdatamodeld;
-			path = "/Users/alanihre/Desktop/Lifesum Code Test/Lifesum Code Test/DataModel.xcdatamodeld";
-			sourceTree = "<absolute>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
